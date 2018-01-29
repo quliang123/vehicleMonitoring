@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vehicle.dao.messageMapper">
+
+
+    <select id="getMessageType" resultType="com.vehicle.entity.dicData">
+         select Dic_Data.dicDataATid,Dic_Data.dicDataValue
+         from DictionaryType,Dic_Data
+         where DictionaryType.dictypeid = Dic_Data.dicDataTypeId
+         and DictionaryType.dictypeid=4
+    </select>
+
+
+    <insert id="addMessage">
+         INSERT INTO v_message(infoBody,vehicleCode,Vin,messageTime,acceptTime,messageType,messageLength)
+          VALUE(#{infoBody},#{vehicleCode},#{Vin},#{messageTime},#{acceptTime},#{messageType},#{messageLength})
+     </insert>
+
+    <select id="getMessageByCondition" resultType="com.vehicle.entity.message">
+        SELECT * from v_message
+        <where>
+            <if test="message.messageType!=null">
+                messageType=#{messageType}
+            </if>
+
+            <if test="message.vehicleCode!=null">
+                vehicleCode=#{vehicleCode}
+            </if>
+
+            <if test="message.beginTime!=null and message.endTime!=null">
+                acceptTime BETWEEN #{beginTime} and #{endTime}
+            </if>
+        </where>
+        <if test="pageIndex!=null and pageSize!=null">
+            limit pageIndex,pageSize
+        </if>
+    </select>
+</mapper>

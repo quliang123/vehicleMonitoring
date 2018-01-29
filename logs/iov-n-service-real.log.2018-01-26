@@ -1,0 +1,826 @@
+2018-01-26 14:33:07,877	INFO	[main]	Verifying properties
+2018-01-26 14:33:07,918	INFO	[main]	Property auto.commit.interval.ms is overridden to 1000
+2018-01-26 14:33:07,918	INFO	[main]	Property group.id is overridden to helloworld
+2018-01-26 14:33:07,919	INFO	[main]	Property zookeeper.connect is overridden to 47.95.227.40:2181
+2018-01-26 14:33:07,919	INFO	[main]	Property zookeeper.session.timeout.ms is overridden to 4000
+2018-01-26 14:33:07,919	INFO	[main]	Property zookeeper.sync.time.ms is overridden to 200
+2018-01-26 14:33:08,316	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], Connecting to zookeeper instance at 47.95.227.40:2181
+2018-01-26 14:33:08,334	INFO	[ZkClient-EventThread-16-47.95.227.40:2181]	Starting ZkClient event thread.
+2018-01-26 14:33:17,352	INFO	[main]	Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-01-26 14:33:17,352	INFO	[main]	Client environment:host.name=DESKTOP-EU1QLVK
+2018-01-26 14:33:17,352	INFO	[main]	Client environment:java.version=1.8.0_151
+2018-01-26 14:33:17,352	INFO	[main]	Client environment:java.vendor=Oracle Corporation
+2018-01-26 14:33:17,352	INFO	[main]	Client environment:java.home=E:\ProgramFiles\Java\jdk1.8.0_151\jre
+2018-01-26 14:33:17,352	INFO	[main]	Client environment:java.class.path=E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\charsets.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\deploy.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\access-bridge-64.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\cldrdata.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\dnsns.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\jaccess.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\jfxrt.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\localedata.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\nashorn.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunec.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunjce_provider.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunmscapi.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunpkcs11.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\zipfs.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\javaws.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jce.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jfr.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jfxswt.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jsse.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\management-agent.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\plugin.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\resources.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\rt.jar;D:\ideaFile\vehicleMonitoring\target\classes;D:\maven\LocalWarehouse\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\maven\LocalWarehouse\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;D:\maven\LocalWarehouse\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-core\2.6.4\jackson-core-2.6.4.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-databind\2.6.4\jackson-databind-2.6.4.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-annotations\2.6.4\jackson-annotations-2.6.4.jar;D:\maven\LocalWarehouse\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;D:\maven\LocalWarehouse\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;D:\maven\LocalWarehouse\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\maven\LocalWarehouse\org\apache\commons\commons-lang3\3.3\commons-lang3-3.3.jar;D:\maven\LocalWarehouse\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWarehouse\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;D:\maven\LocalWarehouse\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;D:\maven\LocalWarehouse\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;D:\maven\LocalWarehouse\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\maven\LocalWarehouse\commons-net\commons-net\3.5\commons-net-3.5.jar;D:\maven\LocalWarehouse\org\springframework\spring-web\4.3.3.RELEASE\spring-web-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-webmvc\4.3.3.RELEASE\spring-webmvc-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-core\4.3.3.RELEASE\spring-core-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-context\4.3.3.RELEASE\spring-context-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-context-support\4.3.3.RELEASE\spring-context-support-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-aop\4.3.3.RELEASE\spring-aop-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-aspects\4.3.3.RELEASE\spring-aspects-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;D:\maven\LocalWarehouse\org\springframework\spring-beans\4.3.3.RELEASE\spring-beans-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-orm\4.3.3.RELEASE\spring-orm-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-oxm\4.3.3.RELEASE\spring-oxm-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-expression\4.3.3.RELEASE\spring-expression-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-jdbc\4.3.3.RELEASE\spring-jdbc-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-tx\4.3.3.RELEASE\spring-tx-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-test\4.3.3.RELEASE\spring-test-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-jms\4.3.3.RELEASE\spring-jms-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-messaging\4.3.3.RELEASE\spring-messaging-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\net\sf\ehcache\ehcache-core\2.4.7\ehcache-core-2.4.7.jar;D:\maven\LocalWarehouse\net\sf\ehcache\ehcache-terracotta\2.4.7\ehcache-terracotta-2.4.7.jar;D:\maven\LocalWarehouse\org\terracotta\terracotta-toolkit-1.3-runtime\3.4.0\terracotta-toolkit-1.3-runtime-3.4.0.jar;D:\maven\LocalWarehouse\org\quartz-scheduler\quartz\2.2.3\quartz-2.2.3.jar;D:\maven\LocalWarehouse\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;D:\maven\LocalWarehouse\org\apache\poi\poi\3.10-FINAL\poi-3.10-FINAL.jar;D:\maven\LocalWarehouse\net\sourceforge\jexcelapi\jxl\2.6\jxl-2.6.jar;D:\maven\LocalWarehouse\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;D:\maven\LocalWarehouse\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;D:\maven\LocalWarehouse\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;D:\maven\LocalWarehouse\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\maven\LocalWarehouse\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWarehouse\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\maven\LocalWarehouse\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;D:\maven\LocalWarehouse\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\maven\LocalWarehouse\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpclient\4.5\httpclient-4.5.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpcore\4.4.5\httpcore-4.4.5.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpclient-cache\4.4.1\httpclient-cache-4.4.1.jar;D:\maven\LocalWarehouse\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;D:\maven\LocalWarehouse\javax\servlet\jstl\1.2\jstl-1.2.jar;D:\maven\LocalWarehouse\org\apache\kafka\kafka_2.11\0.9.0.1\kafka_2.11-0.9.0.1.jar;D:\maven\LocalWarehouse\com\101tec\zkclient\0.7\zkclient-0.7.jar;D:\maven\LocalWarehouse\org\apache\kafka\kafka-clients\0.9.0.1\kafka-clients-0.9.0.1.jar;D:\maven\LocalWarehouse\org\xerial\snappy\snappy-java\1.1.1.7\snappy-java-1.1.1.7.jar;D:\maven\LocalWarehouse\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;D:\maven\LocalWarehouse\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;D:\maven\LocalWarehouse\org\scala-lang\modules\scala-xml_2.11\1.0.4\scala-xml_2.11-1.0.4.jar;D:\maven\LocalWarehouse\org\scala-lang\scala-library\2.11.7\scala-library-2.11.7.jar;D:\maven\LocalWarehouse\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar;D:\maven\LocalWarehouse\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;D:\maven\LocalWarehouse\org\slf4j\slf4j-log4j12\1.7.6\slf4j-log4j12-1.7.6.jar;D:\maven\LocalWarehouse\org\softee\pojo-mbean\1.1\pojo-mbean-1.1.jar;D:\maven\LocalWarehouse\com\esotericsoftware\kryo\3.0.3\kryo-3.0.3.jar;D:\maven\LocalWarehouse\com\esotericsoftware\reflectasm\1.10.1\reflectasm-1.10.1.jar;D:\maven\LocalWarehouse\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;D:\maven\LocalWarehouse\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;D:\maven\LocalWarehouse\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven\LocalWarehouse\de\ruedigermoeller\fst\2.24\fst-2.24.jar;D:\maven\LocalWarehouse\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;D:\maven\LocalWarehouse\io\netty\netty-all\4.1.6.Final\netty-all-4.1.6.Final.jar;D:\maven\LocalWarehouse\org\apache\logging\log4j\log4j-slf4j-impl\2.8.2\log4j-slf4j-impl-2.8.2.jar;D:\maven\LocalWarehouse\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;D:\maven\LocalWarehouse\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;D:\maven\LocalWarehouse\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven\LocalWarehouse\org\slf4j\jcl-over-slf4j\1.7.21\jcl-over-slf4j-1.7.21.jar;D:\maven\LocalWarehouse\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;D:\maven\LocalWarehouse\com\alibaba\druid\1.0.26\druid-1.0.26.jar;D:\maven\LocalWarehouse\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;D:\maven\LocalWarehouse\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;D:\maven\LocalWarehouse\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven\LocalWarehouse\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven\LocalWarehouse\junit\junit\3.8.1\junit-3.8.1.jar;D:\maven\LocalWarehouse\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven\LocalWarehouse\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;D:\maven\LocalWarehouse\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;D:\IntelliJ IDEA 2016.3.2\lib\idea_rt.jar
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:java.library.path=E:\ProgramFiles\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files (x86)\360\360DeskTop;D:\BigData\python\python-3.6.4\exe\Scripts\;D:\BigData\python\python-3.6.4\exe\;D:\BigData\python\Python-2.7.14\;D:\BigData\python\Python-2.7.14\Scripts;D:\BigData\ant\apache-ant-1.9.9\bin;E:\app\123\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\maven\apache-maven-3.2.5\bin;E:\ProgramFiles\Java\jdk1.8.0_151\bin;E:\rj\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\123\.gradle\wrapper\dists\gradle-2.14.1-all\8bnwg5hd3w55iofp58khbp6yv\gradle-2.14.1\bin;D:\BigData\bigData\hadoop-2.8.0\bin;D:\BigData\python\;C:\Users\123\AppData\Local\Microsoft\WindowsApps;;.
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:java.io.tmpdir=C:\Users\123\AppData\Local\Temp\
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:java.compiler=<NA>
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:os.name=Windows 10
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:os.arch=amd64
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:os.version=10.0
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:user.name=123
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:user.home=C:\Users\123
+2018-01-26 14:33:17,353	INFO	[main]	Client environment:user.dir=D:\ideaFile\vehicleMonitoring
+2018-01-26 14:33:17,354	INFO	[main]	Initiating client connection, connectString=47.95.227.40:2181 sessionTimeout=4000 watcher=org.I0Itec.zkclient.ZkClient@ca263c2
+2018-01-26 14:33:17,413	INFO	[main]	Waiting for keeper state SyncConnected
+2018-01-26 14:33:17,416	INFO	[main-SendThread(47.95.227.40:2181)]	Opening socket connection to server 47.95.227.40/47.95.227.40:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-26 14:33:17,426	INFO	[main-SendThread(47.95.227.40:2181)]	Socket connection established to 47.95.227.40/47.95.227.40:2181, initiating session
+2018-01-26 14:33:17,438	INFO	[main-SendThread(47.95.227.40:2181)]	Session establishment complete on server 47.95.227.40/47.95.227.40:2181, sessionid = 0x160f84ca07c098e, negotiated timeout = 4000
+2018-01-26 14:33:17,440	INFO	[main-EventThread]	zookeeper state changed (SyncConnected)
+2018-01-26 14:33:17,451	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], starting auto committer every 1000 ms
+2018-01-26 14:33:17,486	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], begin registering consumer helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac in ZK
+2018-01-26 14:33:17,517	INFO	[main]	Creating /consumers/helloworld/ids/helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac (is it secure? false)
+2018-01-26 14:33:17,535	INFO	[main]	Result of znode creation is: OK
+2018-01-26 14:33:17,535	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], end registering consumer helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac in ZK
+2018-01-26 14:33:17,540	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac_watcher_executor]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], starting watcher executor thread for consumer helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac
+2018-01-26 14:33:17,575	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], begin rebalancing consumer helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac try #0
+2018-01-26 14:33:17,719	INFO	[main]	[ConsumerFetcherManager-1516948397448] Stopping leader finder thread
+2018-01-26 14:33:17,719	INFO	[main]	[ConsumerFetcherManager-1516948397448] Stopping all fetchers
+2018-01-26 14:33:17,720	INFO	[main]	[ConsumerFetcherManager-1516948397448] All connections stopped
+2018-01-26 14:33:17,721	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], Cleared all relevant queues for this fetcher
+2018-01-26 14:33:17,722	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], Cleared the data chunks in all the consumer message iterators
+2018-01-26 14:33:17,722	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], Committing all offsets after clearing the fetcher queues
+2018-01-26 14:33:17,724	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], Releasing partition ownership
+2018-01-26 14:33:17,777	INFO	[main]	Consumer helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac rebalancing the following partitions: ArrayBuffer(0) for topic REALINFO with consumers: List(helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-0)
+2018-01-26 14:33:17,778	INFO	[main]	helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-0 attempting to claim partition 0
+2018-01-26 14:33:17,829	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-0 successfully owned partition 0 for topic REALINFO
+2018-01-26 14:33:17,849	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], Consumer helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac selected partitions : REALINFO:0: fetched offset = 61: consumed offset = 61
+2018-01-26 14:33:17,851	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread], Starting 
+2018-01-26 14:33:17,852	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac], end rebalancing consumer helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac try #0
+2018-01-26 14:33:17,883	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	Verifying properties
+2018-01-26 14:33:17,883	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	Property client.id is overridden to helloworld
+2018-01-26 14:33:17,884	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-26 14:33:17,884	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	Property request.timeout.ms is overridden to 30000
+2018-01-26 14:33:17,904	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(REALINFO)
+2018-01-26 14:33:17,916	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	Connected to 47.95.227.40:9092 for producing
+2018-01-26 14:33:17,945	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	Disconnecting from 47.95.227.40:9092
+2018-01-26 14:33:17,959	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:33:17 CST 2018]; root of context hierarchy
+2018-01-26 14:33:17,962	INFO	[ConsumerFetcherThread-helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-0-0]	[ConsumerFetcherThread-helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-0-0], Starting 
+2018-01-26 14:33:17,966	INFO	[helloworld_DESKTOP-EU1QLVK-1516948388314-7394a4ac-leader-finder-thread]	[ConsumerFetcherManager-1516948397448] Added fetcher for partitions ArrayBuffer([[REALINFO,0], initOffset 61 to broker BrokerEndPoint(0,47.95.227.40,9092)] )
+2018-01-26 14:33:17,995	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 14:33:18,494	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 14:33:18,777	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 14:33:18,779	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 14:33:19,091	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:33:17 CST 2018]; root of context hierarchy
+2018-01-26 14:33:19,134	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 14:33:19,156	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 14:33:19,588	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 14:33:19,797	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 14:33:19,874	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:33:17 CST 2018]; root of context hierarchy
+2018-01-26 14:33:20,144	INFO	[pool-2-thread-1]	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeuwx9tdn5eloa6g8pa|4da855dd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeuwx9tdn5eloa6g8pa|4da855dd, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://47.95.227.40:3306/team4?useUnicode=true&characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-01-26 14:42:00,804	INFO	[main]	Verifying properties
+2018-01-26 14:42:00,843	INFO	[main]	Property auto.commit.interval.ms is overridden to 1000
+2018-01-26 14:42:00,843	INFO	[main]	Property group.id is overridden to helloworld
+2018-01-26 14:42:00,843	INFO	[main]	Property zookeeper.connect is overridden to 47.95.227.40:2181
+2018-01-26 14:42:00,843	INFO	[main]	Property zookeeper.session.timeout.ms is overridden to 4000
+2018-01-26 14:42:00,843	INFO	[main]	Property zookeeper.sync.time.ms is overridden to 200
+2018-01-26 14:42:01,225	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], Connecting to zookeeper instance at 47.95.227.40:2181
+2018-01-26 14:42:01,239	INFO	[ZkClient-EventThread-16-47.95.227.40:2181]	Starting ZkClient event thread.
+2018-01-26 14:42:10,252	INFO	[main]	Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-01-26 14:42:10,252	INFO	[main]	Client environment:host.name=DESKTOP-EU1QLVK
+2018-01-26 14:42:10,252	INFO	[main]	Client environment:java.version=1.8.0_151
+2018-01-26 14:42:10,252	INFO	[main]	Client environment:java.vendor=Oracle Corporation
+2018-01-26 14:42:10,252	INFO	[main]	Client environment:java.home=E:\ProgramFiles\Java\jdk1.8.0_151\jre
+2018-01-26 14:42:10,252	INFO	[main]	Client environment:java.class.path=E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\charsets.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\deploy.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\access-bridge-64.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\cldrdata.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\dnsns.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\jaccess.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\jfxrt.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\localedata.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\nashorn.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunec.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunjce_provider.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunmscapi.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunpkcs11.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\zipfs.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\javaws.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jce.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jfr.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jfxswt.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jsse.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\management-agent.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\plugin.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\resources.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\rt.jar;D:\ideaFile\vehicleMonitoring\target\classes;D:\maven\LocalWarehouse\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\maven\LocalWarehouse\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;D:\maven\LocalWarehouse\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-core\2.6.4\jackson-core-2.6.4.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-databind\2.6.4\jackson-databind-2.6.4.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-annotations\2.6.4\jackson-annotations-2.6.4.jar;D:\maven\LocalWarehouse\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;D:\maven\LocalWarehouse\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;D:\maven\LocalWarehouse\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\maven\LocalWarehouse\org\apache\commons\commons-lang3\3.3\commons-lang3-3.3.jar;D:\maven\LocalWarehouse\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWarehouse\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;D:\maven\LocalWarehouse\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;D:\maven\LocalWarehouse\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;D:\maven\LocalWarehouse\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\maven\LocalWarehouse\commons-net\commons-net\3.5\commons-net-3.5.jar;D:\maven\LocalWarehouse\org\springframework\spring-web\4.3.3.RELEASE\spring-web-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-webmvc\4.3.3.RELEASE\spring-webmvc-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-core\4.3.3.RELEASE\spring-core-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-context\4.3.3.RELEASE\spring-context-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-context-support\4.3.3.RELEASE\spring-context-support-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-aop\4.3.3.RELEASE\spring-aop-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-aspects\4.3.3.RELEASE\spring-aspects-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;D:\maven\LocalWarehouse\org\springframework\spring-beans\4.3.3.RELEASE\spring-beans-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-orm\4.3.3.RELEASE\spring-orm-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-oxm\4.3.3.RELEASE\spring-oxm-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-expression\4.3.3.RELEASE\spring-expression-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-jdbc\4.3.3.RELEASE\spring-jdbc-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-tx\4.3.3.RELEASE\spring-tx-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-test\4.3.3.RELEASE\spring-test-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-jms\4.3.3.RELEASE\spring-jms-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-messaging\4.3.3.RELEASE\spring-messaging-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\net\sf\ehcache\ehcache-core\2.4.7\ehcache-core-2.4.7.jar;D:\maven\LocalWarehouse\net\sf\ehcache\ehcache-terracotta\2.4.7\ehcache-terracotta-2.4.7.jar;D:\maven\LocalWarehouse\org\terracotta\terracotta-toolkit-1.3-runtime\3.4.0\terracotta-toolkit-1.3-runtime-3.4.0.jar;D:\maven\LocalWarehouse\org\quartz-scheduler\quartz\2.2.3\quartz-2.2.3.jar;D:\maven\LocalWarehouse\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;D:\maven\LocalWarehouse\org\apache\poi\poi\3.10-FINAL\poi-3.10-FINAL.jar;D:\maven\LocalWarehouse\net\sourceforge\jexcelapi\jxl\2.6\jxl-2.6.jar;D:\maven\LocalWarehouse\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;D:\maven\LocalWarehouse\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;D:\maven\LocalWarehouse\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;D:\maven\LocalWarehouse\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\maven\LocalWarehouse\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWarehouse\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\maven\LocalWarehouse\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;D:\maven\LocalWarehouse\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\maven\LocalWarehouse\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpclient\4.5\httpclient-4.5.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpcore\4.4.5\httpcore-4.4.5.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpclient-cache\4.4.1\httpclient-cache-4.4.1.jar;D:\maven\LocalWarehouse\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;D:\maven\LocalWarehouse\javax\servlet\jstl\1.2\jstl-1.2.jar;D:\maven\LocalWarehouse\org\apache\kafka\kafka_2.11\0.9.0.1\kafka_2.11-0.9.0.1.jar;D:\maven\LocalWarehouse\com\101tec\zkclient\0.7\zkclient-0.7.jar;D:\maven\LocalWarehouse\org\apache\kafka\kafka-clients\0.9.0.1\kafka-clients-0.9.0.1.jar;D:\maven\LocalWarehouse\org\xerial\snappy\snappy-java\1.1.1.7\snappy-java-1.1.1.7.jar;D:\maven\LocalWarehouse\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;D:\maven\LocalWarehouse\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;D:\maven\LocalWarehouse\org\scala-lang\modules\scala-xml_2.11\1.0.4\scala-xml_2.11-1.0.4.jar;D:\maven\LocalWarehouse\org\scala-lang\scala-library\2.11.7\scala-library-2.11.7.jar;D:\maven\LocalWarehouse\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar;D:\maven\LocalWarehouse\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;D:\maven\LocalWarehouse\org\slf4j\slf4j-log4j12\1.7.6\slf4j-log4j12-1.7.6.jar;D:\maven\LocalWarehouse\org\softee\pojo-mbean\1.1\pojo-mbean-1.1.jar;D:\maven\LocalWarehouse\com\esotericsoftware\kryo\3.0.3\kryo-3.0.3.jar;D:\maven\LocalWarehouse\com\esotericsoftware\reflectasm\1.10.1\reflectasm-1.10.1.jar;D:\maven\LocalWarehouse\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;D:\maven\LocalWarehouse\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;D:\maven\LocalWarehouse\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven\LocalWarehouse\de\ruedigermoeller\fst\2.24\fst-2.24.jar;D:\maven\LocalWarehouse\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;D:\maven\LocalWarehouse\io\netty\netty-all\4.1.6.Final\netty-all-4.1.6.Final.jar;D:\maven\LocalWarehouse\org\apache\logging\log4j\log4j-slf4j-impl\2.8.2\log4j-slf4j-impl-2.8.2.jar;D:\maven\LocalWarehouse\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;D:\maven\LocalWarehouse\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;D:\maven\LocalWarehouse\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven\LocalWarehouse\org\slf4j\jcl-over-slf4j\1.7.21\jcl-over-slf4j-1.7.21.jar;D:\maven\LocalWarehouse\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;D:\maven\LocalWarehouse\com\alibaba\druid\1.0.26\druid-1.0.26.jar;D:\maven\LocalWarehouse\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;D:\maven\LocalWarehouse\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;D:\maven\LocalWarehouse\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven\LocalWarehouse\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven\LocalWarehouse\junit\junit\3.8.1\junit-3.8.1.jar;D:\maven\LocalWarehouse\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven\LocalWarehouse\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;D:\maven\LocalWarehouse\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;D:\IntelliJ IDEA 2016.3.2\lib\idea_rt.jar
+2018-01-26 14:42:10,253	INFO	[main]	Client environment:java.library.path=E:\ProgramFiles\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files (x86)\360\360DeskTop;D:\BigData\python\python-3.6.4\exe\Scripts\;D:\BigData\python\python-3.6.4\exe\;D:\BigData\python\Python-2.7.14\;D:\BigData\python\Python-2.7.14\Scripts;D:\BigData\ant\apache-ant-1.9.9\bin;E:\app\123\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\maven\apache-maven-3.2.5\bin;E:\ProgramFiles\Java\jdk1.8.0_151\bin;E:\rj\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\123\.gradle\wrapper\dists\gradle-2.14.1-all\8bnwg5hd3w55iofp58khbp6yv\gradle-2.14.1\bin;D:\BigData\bigData\hadoop-2.8.0\bin;D:\BigData\python\;C:\Users\123\AppData\Local\Microsoft\WindowsApps;;.
+2018-01-26 14:42:10,254	INFO	[main]	Client environment:java.io.tmpdir=C:\Users\123\AppData\Local\Temp\
+2018-01-26 14:42:10,254	INFO	[main]	Client environment:java.compiler=<NA>
+2018-01-26 14:42:10,254	INFO	[main]	Client environment:os.name=Windows 10
+2018-01-26 14:42:10,254	INFO	[main]	Client environment:os.arch=amd64
+2018-01-26 14:42:10,254	INFO	[main]	Client environment:os.version=10.0
+2018-01-26 14:42:10,254	INFO	[main]	Client environment:user.name=123
+2018-01-26 14:42:10,254	INFO	[main]	Client environment:user.home=C:\Users\123
+2018-01-26 14:42:10,254	INFO	[main]	Client environment:user.dir=D:\ideaFile\vehicleMonitoring
+2018-01-26 14:42:10,255	INFO	[main]	Initiating client connection, connectString=47.95.227.40:2181 sessionTimeout=4000 watcher=org.I0Itec.zkclient.ZkClient@ca263c2
+2018-01-26 14:42:10,315	INFO	[main]	Waiting for keeper state SyncConnected
+2018-01-26 14:42:10,318	INFO	[main-SendThread(47.95.227.40:2181)]	Opening socket connection to server 47.95.227.40/47.95.227.40:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-26 14:42:10,323	INFO	[main-SendThread(47.95.227.40:2181)]	Socket connection established to 47.95.227.40/47.95.227.40:2181, initiating session
+2018-01-26 14:42:10,334	INFO	[main-SendThread(47.95.227.40:2181)]	Session establishment complete on server 47.95.227.40/47.95.227.40:2181, sessionid = 0x160f84ca07c0992, negotiated timeout = 4000
+2018-01-26 14:42:10,336	INFO	[main-EventThread]	zookeeper state changed (SyncConnected)
+2018-01-26 14:42:10,346	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], starting auto committer every 1000 ms
+2018-01-26 14:42:10,382	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], begin registering consumer helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a in ZK
+2018-01-26 14:42:10,411	INFO	[main]	Creating /consumers/helloworld/ids/helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a (is it secure? false)
+2018-01-26 14:42:10,428	INFO	[main]	Result of znode creation is: OK
+2018-01-26 14:42:10,428	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], end registering consumer helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a in ZK
+2018-01-26 14:42:10,432	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a_watcher_executor]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], starting watcher executor thread for consumer helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a
+2018-01-26 14:42:10,475	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], begin rebalancing consumer helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a try #0
+2018-01-26 14:42:10,830	INFO	[main]	[ConsumerFetcherManager-1516948930343] Stopping leader finder thread
+2018-01-26 14:42:10,830	INFO	[main]	[ConsumerFetcherManager-1516948930343] Stopping all fetchers
+2018-01-26 14:42:10,831	INFO	[main]	[ConsumerFetcherManager-1516948930343] All connections stopped
+2018-01-26 14:42:10,831	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], Cleared all relevant queues for this fetcher
+2018-01-26 14:42:10,832	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], Cleared the data chunks in all the consumer message iterators
+2018-01-26 14:42:10,832	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], Committing all offsets after clearing the fetcher queues
+2018-01-26 14:42:10,834	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], Releasing partition ownership
+2018-01-26 14:42:10,893	INFO	[main]	Consumer helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a rebalancing the following partitions: ArrayBuffer(0) for topic REALINFO with consumers: List(helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-0)
+2018-01-26 14:42:10,895	INFO	[main]	helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-0 attempting to claim partition 0
+2018-01-26 14:42:10,941	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-0 successfully owned partition 0 for topic REALINFO
+2018-01-26 14:42:10,960	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], Consumer helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a selected partitions : REALINFO:0: fetched offset = 64: consumed offset = 64
+2018-01-26 14:42:10,961	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread], Starting 
+2018-01-26 14:42:10,962	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a], end rebalancing consumer helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a try #0
+2018-01-26 14:42:10,992	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	Verifying properties
+2018-01-26 14:42:10,993	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	Property client.id is overridden to helloworld
+2018-01-26 14:42:10,993	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-26 14:42:10,993	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	Property request.timeout.ms is overridden to 30000
+2018-01-26 14:42:11,011	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(REALINFO)
+2018-01-26 14:42:11,025	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	Connected to 47.95.227.40:9092 for producing
+2018-01-26 14:42:11,065	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:42:11 CST 2018]; root of context hierarchy
+2018-01-26 14:42:11,108	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 14:42:11,287	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	Disconnecting from 47.95.227.40:9092
+2018-01-26 14:42:11,306	INFO	[ConsumerFetcherThread-helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-0-0]	[ConsumerFetcherThread-helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-0-0], Starting 
+2018-01-26 14:42:11,310	INFO	[helloworld_DESKTOP-EU1QLVK-1516948921224-34f7cd7a-leader-finder-thread]	[ConsumerFetcherManager-1516948930343] Added fetcher for partitions ArrayBuffer([[REALINFO,0], initOffset 64 to broker BrokerEndPoint(0,47.95.227.40,9092)] )
+2018-01-26 14:42:11,392	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 14:42:11,547	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 14:42:11,550	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 14:42:11,833	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:42:11 CST 2018]; root of context hierarchy
+2018-01-26 14:42:11,869	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 14:42:11,890	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 14:42:12,239	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 14:42:12,319	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 14:42:12,390	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:42:11 CST 2018]; root of context hierarchy
+2018-01-26 14:46:25,099	INFO	[main]	Verifying properties
+2018-01-26 14:46:25,141	INFO	[main]	Property auto.commit.interval.ms is overridden to 1000
+2018-01-26 14:46:25,141	INFO	[main]	Property group.id is overridden to helloworld
+2018-01-26 14:46:25,141	INFO	[main]	Property zookeeper.connect is overridden to 47.95.227.40:2181
+2018-01-26 14:46:25,142	INFO	[main]	Property zookeeper.session.timeout.ms is overridden to 4000
+2018-01-26 14:46:25,142	INFO	[main]	Property zookeeper.sync.time.ms is overridden to 200
+2018-01-26 14:46:25,569	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], Connecting to zookeeper instance at 47.95.227.40:2181
+2018-01-26 14:46:25,583	INFO	[ZkClient-EventThread-16-47.95.227.40:2181]	Starting ZkClient event thread.
+2018-01-26 14:46:34,596	INFO	[main]	Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-01-26 14:46:34,596	INFO	[main]	Client environment:host.name=DESKTOP-EU1QLVK
+2018-01-26 14:46:34,596	INFO	[main]	Client environment:java.version=1.8.0_151
+2018-01-26 14:46:34,597	INFO	[main]	Client environment:java.vendor=Oracle Corporation
+2018-01-26 14:46:34,597	INFO	[main]	Client environment:java.home=E:\ProgramFiles\Java\jdk1.8.0_151\jre
+2018-01-26 14:46:34,597	INFO	[main]	Client environment:java.class.path=E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\charsets.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\deploy.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\access-bridge-64.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\cldrdata.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\dnsns.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\jaccess.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\jfxrt.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\localedata.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\nashorn.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunec.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunjce_provider.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunmscapi.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunpkcs11.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\zipfs.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\javaws.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jce.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jfr.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jfxswt.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jsse.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\management-agent.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\plugin.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\resources.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\rt.jar;D:\ideaFile\vehicleMonitoring\target\classes;D:\maven\LocalWarehouse\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\maven\LocalWarehouse\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;D:\maven\LocalWarehouse\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-core\2.6.4\jackson-core-2.6.4.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-databind\2.6.4\jackson-databind-2.6.4.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-annotations\2.6.4\jackson-annotations-2.6.4.jar;D:\maven\LocalWarehouse\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;D:\maven\LocalWarehouse\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;D:\maven\LocalWarehouse\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\maven\LocalWarehouse\org\apache\commons\commons-lang3\3.3\commons-lang3-3.3.jar;D:\maven\LocalWarehouse\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWarehouse\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;D:\maven\LocalWarehouse\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;D:\maven\LocalWarehouse\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;D:\maven\LocalWarehouse\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\maven\LocalWarehouse\commons-net\commons-net\3.5\commons-net-3.5.jar;D:\maven\LocalWarehouse\org\springframework\spring-web\4.3.3.RELEASE\spring-web-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-webmvc\4.3.3.RELEASE\spring-webmvc-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-core\4.3.3.RELEASE\spring-core-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-context\4.3.3.RELEASE\spring-context-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-context-support\4.3.3.RELEASE\spring-context-support-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-aop\4.3.3.RELEASE\spring-aop-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-aspects\4.3.3.RELEASE\spring-aspects-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;D:\maven\LocalWarehouse\org\springframework\spring-beans\4.3.3.RELEASE\spring-beans-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-orm\4.3.3.RELEASE\spring-orm-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-oxm\4.3.3.RELEASE\spring-oxm-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-expression\4.3.3.RELEASE\spring-expression-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-jdbc\4.3.3.RELEASE\spring-jdbc-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-tx\4.3.3.RELEASE\spring-tx-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-test\4.3.3.RELEASE\spring-test-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-jms\4.3.3.RELEASE\spring-jms-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-messaging\4.3.3.RELEASE\spring-messaging-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\net\sf\ehcache\ehcache-core\2.4.7\ehcache-core-2.4.7.jar;D:\maven\LocalWarehouse\net\sf\ehcache\ehcache-terracotta\2.4.7\ehcache-terracotta-2.4.7.jar;D:\maven\LocalWarehouse\org\terracotta\terracotta-toolkit-1.3-runtime\3.4.0\terracotta-toolkit-1.3-runtime-3.4.0.jar;D:\maven\LocalWarehouse\org\quartz-scheduler\quartz\2.2.3\quartz-2.2.3.jar;D:\maven\LocalWarehouse\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;D:\maven\LocalWarehouse\org\apache\poi\poi\3.10-FINAL\poi-3.10-FINAL.jar;D:\maven\LocalWarehouse\net\sourceforge\jexcelapi\jxl\2.6\jxl-2.6.jar;D:\maven\LocalWarehouse\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;D:\maven\LocalWarehouse\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;D:\maven\LocalWarehouse\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;D:\maven\LocalWarehouse\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\maven\LocalWarehouse\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWarehouse\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\maven\LocalWarehouse\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;D:\maven\LocalWarehouse\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\maven\LocalWarehouse\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpclient\4.5\httpclient-4.5.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpcore\4.4.5\httpcore-4.4.5.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpclient-cache\4.4.1\httpclient-cache-4.4.1.jar;D:\maven\LocalWarehouse\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;D:\maven\LocalWarehouse\javax\servlet\jstl\1.2\jstl-1.2.jar;D:\maven\LocalWarehouse\org\apache\kafka\kafka_2.11\0.9.0.1\kafka_2.11-0.9.0.1.jar;D:\maven\LocalWarehouse\com\101tec\zkclient\0.7\zkclient-0.7.jar;D:\maven\LocalWarehouse\org\apache\kafka\kafka-clients\0.9.0.1\kafka-clients-0.9.0.1.jar;D:\maven\LocalWarehouse\org\xerial\snappy\snappy-java\1.1.1.7\snappy-java-1.1.1.7.jar;D:\maven\LocalWarehouse\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;D:\maven\LocalWarehouse\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;D:\maven\LocalWarehouse\org\scala-lang\modules\scala-xml_2.11\1.0.4\scala-xml_2.11-1.0.4.jar;D:\maven\LocalWarehouse\org\scala-lang\scala-library\2.11.7\scala-library-2.11.7.jar;D:\maven\LocalWarehouse\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar;D:\maven\LocalWarehouse\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;D:\maven\LocalWarehouse\org\slf4j\slf4j-log4j12\1.7.6\slf4j-log4j12-1.7.6.jar;D:\maven\LocalWarehouse\org\softee\pojo-mbean\1.1\pojo-mbean-1.1.jar;D:\maven\LocalWarehouse\com\esotericsoftware\kryo\3.0.3\kryo-3.0.3.jar;D:\maven\LocalWarehouse\com\esotericsoftware\reflectasm\1.10.1\reflectasm-1.10.1.jar;D:\maven\LocalWarehouse\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;D:\maven\LocalWarehouse\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;D:\maven\LocalWarehouse\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven\LocalWarehouse\de\ruedigermoeller\fst\2.24\fst-2.24.jar;D:\maven\LocalWarehouse\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;D:\maven\LocalWarehouse\io\netty\netty-all\4.1.6.Final\netty-all-4.1.6.Final.jar;D:\maven\LocalWarehouse\org\apache\logging\log4j\log4j-slf4j-impl\2.8.2\log4j-slf4j-impl-2.8.2.jar;D:\maven\LocalWarehouse\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;D:\maven\LocalWarehouse\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;D:\maven\LocalWarehouse\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven\LocalWarehouse\org\slf4j\jcl-over-slf4j\1.7.21\jcl-over-slf4j-1.7.21.jar;D:\maven\LocalWarehouse\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;D:\maven\LocalWarehouse\com\alibaba\druid\1.0.26\druid-1.0.26.jar;D:\maven\LocalWarehouse\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;D:\maven\LocalWarehouse\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;D:\maven\LocalWarehouse\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven\LocalWarehouse\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven\LocalWarehouse\junit\junit\3.8.1\junit-3.8.1.jar;D:\maven\LocalWarehouse\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven\LocalWarehouse\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;D:\maven\LocalWarehouse\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;D:\IntelliJ IDEA 2016.3.2\lib\idea_rt.jar
+2018-01-26 14:46:34,602	INFO	[main]	Client environment:java.library.path=E:\ProgramFiles\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files (x86)\360\360DeskTop;D:\BigData\python\python-3.6.4\exe\Scripts\;D:\BigData\python\python-3.6.4\exe\;D:\BigData\python\Python-2.7.14\;D:\BigData\python\Python-2.7.14\Scripts;D:\BigData\ant\apache-ant-1.9.9\bin;E:\app\123\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\maven\apache-maven-3.2.5\bin;E:\ProgramFiles\Java\jdk1.8.0_151\bin;E:\rj\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\123\.gradle\wrapper\dists\gradle-2.14.1-all\8bnwg5hd3w55iofp58khbp6yv\gradle-2.14.1\bin;D:\BigData\bigData\hadoop-2.8.0\bin;D:\BigData\python\;C:\Users\123\AppData\Local\Microsoft\WindowsApps;;.
+2018-01-26 14:46:34,602	INFO	[main]	Client environment:java.io.tmpdir=C:\Users\123\AppData\Local\Temp\
+2018-01-26 14:46:34,602	INFO	[main]	Client environment:java.compiler=<NA>
+2018-01-26 14:46:34,602	INFO	[main]	Client environment:os.name=Windows 10
+2018-01-26 14:46:34,602	INFO	[main]	Client environment:os.arch=amd64
+2018-01-26 14:46:34,602	INFO	[main]	Client environment:os.version=10.0
+2018-01-26 14:46:34,602	INFO	[main]	Client environment:user.name=123
+2018-01-26 14:46:34,602	INFO	[main]	Client environment:user.home=C:\Users\123
+2018-01-26 14:46:34,603	INFO	[main]	Client environment:user.dir=D:\ideaFile\vehicleMonitoring
+2018-01-26 14:46:34,604	INFO	[main]	Initiating client connection, connectString=47.95.227.40:2181 sessionTimeout=4000 watcher=org.I0Itec.zkclient.ZkClient@ca263c2
+2018-01-26 14:46:34,685	INFO	[main]	Waiting for keeper state SyncConnected
+2018-01-26 14:46:34,689	INFO	[main-SendThread(47.95.227.40:2181)]	Opening socket connection to server 47.95.227.40/47.95.227.40:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-26 14:46:34,697	INFO	[main-SendThread(47.95.227.40:2181)]	Socket connection established to 47.95.227.40/47.95.227.40:2181, initiating session
+2018-01-26 14:46:34,710	INFO	[main-SendThread(47.95.227.40:2181)]	Session establishment complete on server 47.95.227.40/47.95.227.40:2181, sessionid = 0x160f84ca07c0993, negotiated timeout = 4000
+2018-01-26 14:46:34,712	INFO	[main-EventThread]	zookeeper state changed (SyncConnected)
+2018-01-26 14:46:34,723	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], starting auto committer every 1000 ms
+2018-01-26 14:46:34,760	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], begin registering consumer helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae in ZK
+2018-01-26 14:46:34,788	INFO	[main]	Creating /consumers/helloworld/ids/helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae (is it secure? false)
+2018-01-26 14:46:34,804	INFO	[main]	Result of znode creation is: OK
+2018-01-26 14:46:34,804	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], end registering consumer helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae in ZK
+2018-01-26 14:46:34,810	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae_watcher_executor]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], starting watcher executor thread for consumer helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae
+2018-01-26 14:46:34,858	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], begin rebalancing consumer helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae try #0
+2018-01-26 14:46:35,030	INFO	[main]	[ConsumerFetcherManager-1516949194720] Stopping leader finder thread
+2018-01-26 14:46:35,031	INFO	[main]	[ConsumerFetcherManager-1516949194720] Stopping all fetchers
+2018-01-26 14:46:35,034	INFO	[main]	[ConsumerFetcherManager-1516949194720] All connections stopped
+2018-01-26 14:46:35,037	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], Cleared all relevant queues for this fetcher
+2018-01-26 14:46:35,039	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], Cleared the data chunks in all the consumer message iterators
+2018-01-26 14:46:35,040	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], Committing all offsets after clearing the fetcher queues
+2018-01-26 14:46:35,044	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], Releasing partition ownership
+2018-01-26 14:46:35,152	INFO	[main]	Consumer helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae rebalancing the following partitions: ArrayBuffer(0) for topic REALINFO with consumers: List(helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-0)
+2018-01-26 14:46:35,156	INFO	[main]	helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-0 attempting to claim partition 0
+2018-01-26 14:46:35,208	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-0 successfully owned partition 0 for topic REALINFO
+2018-01-26 14:46:35,229	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], Consumer helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae selected partitions : REALINFO:0: fetched offset = 77: consumed offset = 77
+2018-01-26 14:46:35,231	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread], Starting 
+2018-01-26 14:46:35,232	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae], end rebalancing consumer helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae try #0
+2018-01-26 14:46:35,264	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	Verifying properties
+2018-01-26 14:46:35,265	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	Property client.id is overridden to helloworld
+2018-01-26 14:46:35,265	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-26 14:46:35,265	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	Property request.timeout.ms is overridden to 30000
+2018-01-26 14:46:35,290	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(REALINFO)
+2018-01-26 14:46:35,303	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	Connected to 47.95.227.40:9092 for producing
+2018-01-26 14:46:35,333	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	Disconnecting from 47.95.227.40:9092
+2018-01-26 14:46:35,348	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:46:35 CST 2018]; root of context hierarchy
+2018-01-26 14:46:35,355	INFO	[ConsumerFetcherThread-helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-0-0]	[ConsumerFetcherThread-helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-0-0], Starting 
+2018-01-26 14:46:35,358	INFO	[helloworld_DESKTOP-EU1QLVK-1516949185568-1eb902ae-leader-finder-thread]	[ConsumerFetcherManager-1516949194720] Added fetcher for partitions ArrayBuffer([[REALINFO,0], initOffset 77 to broker BrokerEndPoint(0,47.95.227.40,9092)] )
+2018-01-26 14:46:35,391	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 14:46:35,742	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 14:46:35,961	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 14:46:35,964	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 14:46:36,290	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:46:35 CST 2018]; root of context hierarchy
+2018-01-26 14:46:36,329	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 14:46:36,352	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 14:46:36,678	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 14:46:36,759	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 14:46:36,841	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 14:46:35 CST 2018]; root of context hierarchy
+2018-01-26 14:47:02,861	INFO	[pool-2-thread-1]	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeuwx9tdnmhq0197rf0m|4da855dd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeuwx9tdnmhq0197rf0m|4da855dd, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://47.95.227.40:3306/team4?useUnicode=true&characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-01-26 18:58:01,129	INFO	[main]	Verifying properties
+2018-01-26 18:58:01,167	INFO	[main]	Property auto.commit.interval.ms is overridden to 1000
+2018-01-26 18:58:01,167	INFO	[main]	Property group.id is overridden to helloworld
+2018-01-26 18:58:01,168	INFO	[main]	Property zookeeper.connect is overridden to 47.95.227.40:2181
+2018-01-26 18:58:01,168	INFO	[main]	Property zookeeper.session.timeout.ms is overridden to 4000
+2018-01-26 18:58:01,168	INFO	[main]	Property zookeeper.sync.time.ms is overridden to 200
+2018-01-26 18:58:01,561	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], Connecting to zookeeper instance at 47.95.227.40:2181
+2018-01-26 18:58:01,572	INFO	[ZkClient-EventThread-16-47.95.227.40:2181]	Starting ZkClient event thread.
+2018-01-26 18:58:10,584	INFO	[main]	Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-01-26 18:58:10,584	INFO	[main]	Client environment:host.name=DESKTOP-EU1QLVK
+2018-01-26 18:58:10,584	INFO	[main]	Client environment:java.version=1.8.0_151
+2018-01-26 18:58:10,584	INFO	[main]	Client environment:java.vendor=Oracle Corporation
+2018-01-26 18:58:10,584	INFO	[main]	Client environment:java.home=E:\ProgramFiles\Java\jdk1.8.0_151\jre
+2018-01-26 18:58:10,584	INFO	[main]	Client environment:java.class.path=E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\charsets.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\deploy.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\access-bridge-64.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\cldrdata.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\dnsns.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\jaccess.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\jfxrt.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\localedata.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\nashorn.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunec.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunjce_provider.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunmscapi.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\sunpkcs11.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\ext\zipfs.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\javaws.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jce.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jfr.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jfxswt.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\jsse.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\management-agent.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\plugin.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\resources.jar;E:\ProgramFiles\Java\jdk1.8.0_151\jre\lib\rt.jar;D:\ideaFile\vehicleMonitoring\target\classes;D:\maven\LocalWarehouse\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\maven\LocalWarehouse\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;D:\maven\LocalWarehouse\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-core\2.6.4\jackson-core-2.6.4.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-databind\2.6.4\jackson-databind-2.6.4.jar;D:\maven\LocalWarehouse\com\fasterxml\jackson\core\jackson-annotations\2.6.4\jackson-annotations-2.6.4.jar;D:\maven\LocalWarehouse\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;D:\maven\LocalWarehouse\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;D:\maven\LocalWarehouse\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\maven\LocalWarehouse\org\apache\commons\commons-lang3\3.3\commons-lang3-3.3.jar;D:\maven\LocalWarehouse\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\LocalWarehouse\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;D:\maven\LocalWarehouse\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;D:\maven\LocalWarehouse\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;D:\maven\LocalWarehouse\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\maven\LocalWarehouse\commons-net\commons-net\3.5\commons-net-3.5.jar;D:\maven\LocalWarehouse\org\springframework\spring-web\4.3.3.RELEASE\spring-web-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-webmvc\4.3.3.RELEASE\spring-webmvc-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-core\4.3.3.RELEASE\spring-core-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-context\4.3.3.RELEASE\spring-context-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-context-support\4.3.3.RELEASE\spring-context-support-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-aop\4.3.3.RELEASE\spring-aop-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-aspects\4.3.3.RELEASE\spring-aspects-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;D:\maven\LocalWarehouse\org\springframework\spring-beans\4.3.3.RELEASE\spring-beans-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-orm\4.3.3.RELEASE\spring-orm-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-oxm\4.3.3.RELEASE\spring-oxm-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-expression\4.3.3.RELEASE\spring-expression-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-jdbc\4.3.3.RELEASE\spring-jdbc-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-tx\4.3.3.RELEASE\spring-tx-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-test\4.3.3.RELEASE\spring-test-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-jms\4.3.3.RELEASE\spring-jms-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\org\springframework\spring-messaging\4.3.3.RELEASE\spring-messaging-4.3.3.RELEASE.jar;D:\maven\LocalWarehouse\net\sf\ehcache\ehcache-core\2.4.7\ehcache-core-2.4.7.jar;D:\maven\LocalWarehouse\net\sf\ehcache\ehcache-terracotta\2.4.7\ehcache-terracotta-2.4.7.jar;D:\maven\LocalWarehouse\org\terracotta\terracotta-toolkit-1.3-runtime\3.4.0\terracotta-toolkit-1.3-runtime-3.4.0.jar;D:\maven\LocalWarehouse\org\quartz-scheduler\quartz\2.2.3\quartz-2.2.3.jar;D:\maven\LocalWarehouse\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;D:\maven\LocalWarehouse\org\apache\poi\poi\3.10-FINAL\poi-3.10-FINAL.jar;D:\maven\LocalWarehouse\net\sourceforge\jexcelapi\jxl\2.6\jxl-2.6.jar;D:\maven\LocalWarehouse\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;D:\maven\LocalWarehouse\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;D:\maven\LocalWarehouse\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;D:\maven\LocalWarehouse\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\maven\LocalWarehouse\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maven\LocalWarehouse\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\maven\LocalWarehouse\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;D:\maven\LocalWarehouse\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\maven\LocalWarehouse\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpclient\4.5\httpclient-4.5.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpcore\4.4.5\httpcore-4.4.5.jar;D:\maven\LocalWarehouse\org\apache\httpcomponents\httpclient-cache\4.4.1\httpclient-cache-4.4.1.jar;D:\maven\LocalWarehouse\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;D:\maven\LocalWarehouse\javax\servlet\jstl\1.2\jstl-1.2.jar;D:\maven\LocalWarehouse\org\apache\kafka\kafka_2.11\0.9.0.1\kafka_2.11-0.9.0.1.jar;D:\maven\LocalWarehouse\com\101tec\zkclient\0.7\zkclient-0.7.jar;D:\maven\LocalWarehouse\org\apache\kafka\kafka-clients\0.9.0.1\kafka-clients-0.9.0.1.jar;D:\maven\LocalWarehouse\org\xerial\snappy\snappy-java\1.1.1.7\snappy-java-1.1.1.7.jar;D:\maven\LocalWarehouse\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;D:\maven\LocalWarehouse\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;D:\maven\LocalWarehouse\org\scala-lang\modules\scala-xml_2.11\1.0.4\scala-xml_2.11-1.0.4.jar;D:\maven\LocalWarehouse\org\scala-lang\scala-library\2.11.7\scala-library-2.11.7.jar;D:\maven\LocalWarehouse\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar;D:\maven\LocalWarehouse\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;D:\maven\LocalWarehouse\org\slf4j\slf4j-log4j12\1.7.6\slf4j-log4j12-1.7.6.jar;D:\maven\LocalWarehouse\org\softee\pojo-mbean\1.1\pojo-mbean-1.1.jar;D:\maven\LocalWarehouse\com\esotericsoftware\kryo\3.0.3\kryo-3.0.3.jar;D:\maven\LocalWarehouse\com\esotericsoftware\reflectasm\1.10.1\reflectasm-1.10.1.jar;D:\maven\LocalWarehouse\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;D:\maven\LocalWarehouse\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;D:\maven\LocalWarehouse\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven\LocalWarehouse\de\ruedigermoeller\fst\2.24\fst-2.24.jar;D:\maven\LocalWarehouse\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;D:\maven\LocalWarehouse\io\netty\netty-all\4.1.6.Final\netty-all-4.1.6.Final.jar;D:\maven\LocalWarehouse\org\apache\logging\log4j\log4j-slf4j-impl\2.8.2\log4j-slf4j-impl-2.8.2.jar;D:\maven\LocalWarehouse\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;D:\maven\LocalWarehouse\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;D:\maven\LocalWarehouse\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven\LocalWarehouse\org\slf4j\jcl-over-slf4j\1.7.21\jcl-over-slf4j-1.7.21.jar;D:\maven\LocalWarehouse\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;D:\maven\LocalWarehouse\com\alibaba\druid\1.0.26\druid-1.0.26.jar;D:\maven\LocalWarehouse\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;D:\maven\LocalWarehouse\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;D:\maven\LocalWarehouse\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven\LocalWarehouse\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven\LocalWarehouse\junit\junit\3.8.1\junit-3.8.1.jar;D:\maven\LocalWarehouse\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven\LocalWarehouse\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;D:\maven\LocalWarehouse\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;D:\IntelliJ IDEA 2016.3.2\lib\idea_rt.jar
+2018-01-26 18:58:10,586	INFO	[main]	Client environment:java.library.path=E:\ProgramFiles\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files (x86)\360\360DeskTop;D:\BigData\python\python-3.6.4\exe\Scripts\;D:\BigData\python\python-3.6.4\exe\;D:\BigData\python\Python-2.7.14\;D:\BigData\python\Python-2.7.14\Scripts;D:\BigData\ant\apache-ant-1.9.9\bin;E:\app\123\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\maven\apache-maven-3.2.5\bin;E:\ProgramFiles\Java\jdk1.8.0_151\bin;E:\rj\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\123\.gradle\wrapper\dists\gradle-2.14.1-all\8bnwg5hd3w55iofp58khbp6yv\gradle-2.14.1\bin;D:\BigData\bigData\hadoop-2.8.0\bin;D:\BigData\python\;C:\Users\123\AppData\Local\Microsoft\WindowsApps;;.
+2018-01-26 18:58:10,587	INFO	[main]	Client environment:java.io.tmpdir=C:\Users\123\AppData\Local\Temp\
+2018-01-26 18:58:10,587	INFO	[main]	Client environment:java.compiler=<NA>
+2018-01-26 18:58:10,587	INFO	[main]	Client environment:os.name=Windows 10
+2018-01-26 18:58:10,587	INFO	[main]	Client environment:os.arch=amd64
+2018-01-26 18:58:10,587	INFO	[main]	Client environment:os.version=10.0
+2018-01-26 18:58:10,587	INFO	[main]	Client environment:user.name=123
+2018-01-26 18:58:10,587	INFO	[main]	Client environment:user.home=C:\Users\123
+2018-01-26 18:58:10,587	INFO	[main]	Client environment:user.dir=D:\ideaFile\vehicleMonitoring
+2018-01-26 18:58:10,588	INFO	[main]	Initiating client connection, connectString=47.95.227.40:2181 sessionTimeout=4000 watcher=org.I0Itec.zkclient.ZkClient@ca263c2
+2018-01-26 18:58:10,652	INFO	[main]	Waiting for keeper state SyncConnected
+2018-01-26 18:58:10,656	INFO	[main-SendThread(47.95.227.40:2181)]	Opening socket connection to server 47.95.227.40/47.95.227.40:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-26 18:58:10,662	INFO	[main-SendThread(47.95.227.40:2181)]	Socket connection established to 47.95.227.40/47.95.227.40:2181, initiating session
+2018-01-26 18:58:10,672	INFO	[main-SendThread(47.95.227.40:2181)]	Session establishment complete on server 47.95.227.40/47.95.227.40:2181, sessionid = 0x160f84ca07c09d5, negotiated timeout = 4000
+2018-01-26 18:58:10,674	INFO	[main-EventThread]	zookeeper state changed (SyncConnected)
+2018-01-26 18:58:10,685	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], starting auto committer every 1000 ms
+2018-01-26 18:58:10,725	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], begin registering consumer helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0 in ZK
+2018-01-26 18:58:10,755	INFO	[main]	Creating /consumers/helloworld/ids/helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0 (is it secure? false)
+2018-01-26 18:58:10,772	INFO	[main]	Result of znode creation is: OK
+2018-01-26 18:58:10,772	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], end registering consumer helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0 in ZK
+2018-01-26 18:58:10,776	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0_watcher_executor]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], starting watcher executor thread for consumer helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0
+2018-01-26 18:58:10,813	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], begin rebalancing consumer helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0 try #0
+2018-01-26 18:58:10,967	INFO	[main]	[ConsumerFetcherManager-1516964290682] Stopping leader finder thread
+2018-01-26 18:58:10,967	INFO	[main]	[ConsumerFetcherManager-1516964290682] Stopping all fetchers
+2018-01-26 18:58:10,968	INFO	[main]	[ConsumerFetcherManager-1516964290682] All connections stopped
+2018-01-26 18:58:10,968	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], Cleared all relevant queues for this fetcher
+2018-01-26 18:58:10,969	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], Cleared the data chunks in all the consumer message iterators
+2018-01-26 18:58:10,970	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], Committing all offsets after clearing the fetcher queues
+2018-01-26 18:58:10,971	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], Releasing partition ownership
+2018-01-26 18:58:11,025	INFO	[main]	Consumer helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0 rebalancing the following partitions: ArrayBuffer(0) for topic REALINFO with consumers: List(helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-0)
+2018-01-26 18:58:11,028	INFO	[main]	helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-0 attempting to claim partition 0
+2018-01-26 18:58:11,074	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-0 successfully owned partition 0 for topic REALINFO
+2018-01-26 18:58:11,098	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], Consumer helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0 selected partitions : REALINFO:0: fetched offset = 127: consumed offset = 127
+2018-01-26 18:58:11,100	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread], Starting 
+2018-01-26 18:58:11,101	INFO	[main]	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0], end rebalancing consumer helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0 try #0
+2018-01-26 18:58:11,130	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	Verifying properties
+2018-01-26 18:58:11,130	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	Property client.id is overridden to helloworld
+2018-01-26 18:58:11,131	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-26 18:58:11,131	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	Property request.timeout.ms is overridden to 30000
+2018-01-26 18:58:11,152	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(REALINFO)
+2018-01-26 18:58:11,165	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	Connected to 47.95.227.40:9092 for producing
+2018-01-26 18:58:11,194	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	Disconnecting from 47.95.227.40:9092
+2018-01-26 18:58:11,213	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 18:58:11 CST 2018]; root of context hierarchy
+2018-01-26 18:58:11,214	INFO	[ConsumerFetcherThread-helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-0-0]	[ConsumerFetcherThread-helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-0-0], Starting 
+2018-01-26 18:58:11,218	INFO	[helloworld_DESKTOP-EU1QLVK-1516964281559-106602c0-leader-finder-thread]	[ConsumerFetcherManager-1516964290682] Added fetcher for partitions ArrayBuffer([[REALINFO,0], initOffset 127 to broker BrokerEndPoint(0,47.95.227.40,9092)] )
+2018-01-26 18:58:11,253	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 18:58:11,544	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 18:58:11,707	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 18:58:11,709	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 18:58:11,993	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 18:58:11 CST 2018]; root of context hierarchy
+2018-01-26 18:58:12,029	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 18:58:12,051	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 18:58:12,403	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 18:58:12,534	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 18:58:12,624	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7188af83: startup date [Fri Jan 26 18:58:11 CST 2018]; root of context hierarchy
+2018-01-26 19:03:07,565	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:03:07 CST 2018]; root of context hierarchy
+2018-01-26 19:03:07,615	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:03:07,921	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:03:08,134	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:03:08,138	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:03:08,552	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:03:07 CST 2018]; root of context hierarchy
+2018-01-26 19:03:08,616	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:03:09,064	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:03:09,467	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:03:09,546	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:03:09,612	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:03:07 CST 2018]; root of context hierarchy
+2018-01-26 19:03:09,766	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:03:18,862	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:03:18,862	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-26 19:07:04,829	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:07:04 CST 2018]; root of context hierarchy
+2018-01-26 19:07:04,879	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:07:05,191	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:07:05,382	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:07:05,386	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:07:05,834	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:07:04 CST 2018]; root of context hierarchy
+2018-01-26 19:07:05,885	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:07:06,312	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:07:06,709	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:07:06,791	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:07:06,863	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:07:04 CST 2018]; root of context hierarchy
+2018-01-26 19:07:07,036	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:07:16,094	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:07:16,094	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-26 19:07:59,739	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:07:59 CST 2018]; root of context hierarchy
+2018-01-26 19:07:59,787	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:08:00,109	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:08:00,300	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:08:00,303	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:08:00,702	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:07:59 CST 2018]; root of context hierarchy
+2018-01-26 19:08:00,765	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:08:01,220	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:08:01,643	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:08:01,714	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:08:01,778	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:07:59 CST 2018]; root of context hierarchy
+2018-01-26 19:08:01,960	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:08:11,027	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:08:11,027	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-26 19:14:46,408	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:14:46 CST 2018]; root of context hierarchy
+2018-01-26 19:14:46,458	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:14:46,773	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:14:46,958	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:14:46,960	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:14:47,344	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:14:46 CST 2018]; root of context hierarchy
+2018-01-26 19:14:47,400	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:14:47,848	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:14:55,375	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:14:55 CST 2018]; root of context hierarchy
+2018-01-26 19:14:55,424	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:14:55,719	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:14:55,906	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:14:55,908	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:14:56,260	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:14:55 CST 2018]; root of context hierarchy
+2018-01-26 19:14:56,308	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:14:56,767	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:14:57,218	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:14:57,309	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:14:57,389	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:14:55 CST 2018]; root of context hierarchy
+2018-01-26 19:14:57,540	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:15:06,646	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:15:06,646	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-26 19:18:28,609	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:18:28 CST 2018]; root of context hierarchy
+2018-01-26 19:18:28,669	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:18:29,001	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:18:29,183	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:18:29,186	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:18:29,596	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:18:28 CST 2018]; root of context hierarchy
+2018-01-26 19:18:29,640	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:18:30,100	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:18:30,474	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:18:30,543	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:18:30,625	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:18:28 CST 2018]; root of context hierarchy
+2018-01-26 19:18:30,768	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:18:39,828	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:18:39,828	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-26 19:20:03,455	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:20:03 CST 2018]; root of context hierarchy
+2018-01-26 19:20:03,510	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:20:03,841	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:20:04,065	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:20:04,069	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:20:04,539	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:20:03 CST 2018]; root of context hierarchy
+2018-01-26 19:20:04,616	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:20:05,107	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:20:05,502	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:20:05,572	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:20:05,635	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:20:03 CST 2018]; root of context hierarchy
+2018-01-26 19:20:05,773	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:20:14,872	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:20:14,872	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-26 19:24:55,671	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:24:55 CST 2018]; root of context hierarchy
+2018-01-26 19:24:55,714	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:24:56,025	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:24:56,215	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:24:56,217	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:24:56,697	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:24:55 CST 2018]; root of context hierarchy
+2018-01-26 19:24:56,766	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:24:57,206	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:24:57,620	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:24:57,697	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:24:57,761	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:24:55 CST 2018]; root of context hierarchy
+2018-01-26 19:24:57,945	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:25:07,015	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:25:07,016	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-26 19:25:52,928	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:25:52 CST 2018]; root of context hierarchy
+2018-01-26 19:25:52,979	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:25:53,345	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:25:53,546	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:25:53,549	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:25:53,966	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:25:52 CST 2018]; root of context hierarchy
+2018-01-26 19:25:54,019	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:25:54,458	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:25:54,867	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:25:54,936	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:25:55,001	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:25:52 CST 2018]; root of context hierarchy
+2018-01-26 19:25:55,166	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:26:04,270	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:26:04,270	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-26 19:27:16,155	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:27:16 CST 2018]; root of context hierarchy
+2018-01-26 19:27:16,204	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-26 19:27:16,644	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-26 19:27:16,884	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-26 19:27:16,886	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-26 19:27:17,503	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:27:16 CST 2018]; root of context hierarchy
+2018-01-26 19:27:17,610	INFO	[main]	MLog clients using log4j logging.
+2018-01-26 19:27:18,208	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-26 19:27:18,766	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-26 19:27:18,884	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-26 19:27:18,957	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Fri Jan 26 19:27:16 CST 2018]; root of context hierarchy
+2018-01-26 19:27:19,119	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-26 19:27:28,177	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-26 19:27:28,177	INFO	[main]	Kafka commitId : 23c69d62a0cabf06

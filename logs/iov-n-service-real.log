@@ -1,0 +1,1872 @@
+2018-01-27 10:11:56,429	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Sat Jan 27 10:11:56 CST 2018]; root of context hierarchy
+2018-01-27 10:11:56,479	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 10:11:57,052	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 10:11:57,443	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 10:11:57,445	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 10:11:58,070	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Sat Jan 27 10:11:56 CST 2018]; root of context hierarchy
+2018-01-27 10:11:58,286	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 10:11:58,766	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 10:11:59,893	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 10:11:59,986	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 10:12:00,081	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@44e81672: startup date [Sat Jan 27 10:11:56 CST 2018]; root of context hierarchy
+2018-01-27 10:12:00,425	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 10:12:09,523	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 10:12:09,523	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 10:17:14,114	INFO	[main]	Attempt to heart beat failed since the group is rebalancing, try to re-join group.
+2018-01-27 10:22:25,425	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ca8195f: startup date [Sat Jan 27 10:22:25 CST 2018]; root of context hierarchy
+2018-01-27 10:22:25,470	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 10:22:25,773	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 10:22:25,971	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 10:22:25,975	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 10:22:26,380	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4ca8195f: startup date [Sat Jan 27 10:22:25 CST 2018]; root of context hierarchy
+2018-01-27 10:22:26,426	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 10:22:26,811	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 10:22:27,195	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 10:22:27,272	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 10:22:27,333	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4ca8195f: startup date [Sat Jan 27 10:22:25 CST 2018]; root of context hierarchy
+2018-01-27 10:22:27,483	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 10:22:36,544	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 10:22:36,545	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 10:26:49,104	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ca8195f: startup date [Sat Jan 27 10:26:49 CST 2018]; root of context hierarchy
+2018-01-27 10:26:49,147	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 10:26:49,430	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 10:26:49,604	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 10:26:49,607	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 10:26:49,965	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4ca8195f: startup date [Sat Jan 27 10:26:49 CST 2018]; root of context hierarchy
+2018-01-27 10:26:50,019	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 10:26:50,424	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 10:26:50,838	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 10:26:50,909	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 10:26:50,965	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4ca8195f: startup date [Sat Jan 27 10:26:49 CST 2018]; root of context hierarchy
+2018-01-27 10:26:51,112	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 10:27:00,166	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 10:27:00,166	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:02:25,392	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ca8195f: startup date [Sat Jan 27 11:02:25 CST 2018]; root of context hierarchy
+2018-01-27 11:02:25,437	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:02:25,726	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:02:25,904	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:02:25,906	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:02:26,266	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4ca8195f: startup date [Sat Jan 27 11:02:25 CST 2018]; root of context hierarchy
+2018-01-27 11:02:26,329	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:02:26,719	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:02:26,916	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.<clinit>(KafkaConsumerTest1.java:69)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:123)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 74 more
+2018-01-27 11:02:26,926	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:26,931	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.<clinit>(KafkaConsumerTest1.java:69)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:123)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 74 more
+2018-01-27 11:02:26,934	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:26,966	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.<clinit>(KafkaConsumerTest1.java:69)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:123)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 58 more
+2018-01-27 11:02:26,971	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:26,976	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.<clinit>(KafkaConsumerTest1.java:69)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:123)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 58 more
+2018-01-27 11:02:26,978	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:26,988	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.<clinit>(KafkaConsumerTest1.java:69)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:123)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 42 more
+2018-01-27 11:02:26,990	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:27,113	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:02:27,144	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:566)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.<clinit>(KafkaConsumerTest1.java:69)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:123)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 42 more
+2018-01-27 11:02:27,148	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:27,162	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:566)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.<clinit>(KafkaConsumerTest1.java:69)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:123)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 42 more
+2018-01-27 11:02:27,165	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:27,176	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:566)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.<clinit>(KafkaConsumerTest1.java:69)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:123)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 42 more
+2018-01-27 11:02:27,177	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:27,178	WARN	[main]	Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'vehicleService': Unsatisfied dependency expressed through field 'vehicleMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [com.vehicle.dao.vehicleMapper]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Related cause: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:02:58,544	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:03:07,987	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:03:07,987	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:03:32,661	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:03:32 CST 2018]; root of context hierarchy
+2018-01-27 11:03:32,691	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:03:32,950	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:03:33,097	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:03:33,099	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:03:33,385	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:03:32 CST 2018]; root of context hierarchy
+2018-01-27 11:03:33,423	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:03:33,448	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:03:33,637	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.insertRedis(KafkaConsumerTest1.java:76)
+	at KafkaConsumerTest1.main(KafkaConsumerTest1.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 77 more
+2018-01-27 11:03:33,644	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:03:33,652	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.insertRedis(KafkaConsumerTest1.java:76)
+	at KafkaConsumerTest1.main(KafkaConsumerTest1.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 77 more
+2018-01-27 11:03:33,655	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:03:33,698	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.insertRedis(KafkaConsumerTest1.java:76)
+	at KafkaConsumerTest1.main(KafkaConsumerTest1.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 61 more
+2018-01-27 11:03:33,702	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:03:33,708	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.insertRedis(KafkaConsumerTest1.java:76)
+	at KafkaConsumerTest1.main(KafkaConsumerTest1.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 61 more
+2018-01-27 11:03:33,714	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:03:33,728	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:384)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1172)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:177)
+	at org.springframework.web.method.ControllerAdviceBean.findAnnotatedBeans(ControllerAdviceBean.java:215)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:537)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.afterPropertiesSet(RequestMappingHandlerAdapter.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.insertRedis(KafkaConsumerTest1.java:76)
+	at KafkaConsumerTest1.main(KafkaConsumerTest1.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 45 more
+2018-01-27 11:03:33,731	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:03:33,861	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:03:33,915	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:566)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.insertRedis(KafkaConsumerTest1.java:76)
+	at KafkaConsumerTest1.main(KafkaConsumerTest1.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 45 more
+2018-01-27 11:03:33,919	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:03:33,933	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:566)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.insertRedis(KafkaConsumerTest1.java:76)
+	at KafkaConsumerTest1.main(KafkaConsumerTest1.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 45 more
+2018-01-27 11:03:33,941	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:03:33,952	ERROR	[main]	Error while adding the mapper 'interface com.vehicle.dao.vehicleMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:71)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:651)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:97)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1642)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:809)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:398)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1240)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1091)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:566)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at KafkaConsumerTest1.insertRedis(KafkaConsumerTest1.java:76)
+	at KafkaConsumerTest1.main(KafkaConsumerTest1.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+	at org.apache.ibatis.builder.MapperBuilderAssistant.setCurrentNamespace(MapperBuilderAssistant.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:112)
+	... 45 more
+2018-01-27 11:03:33,958	WARN	[main]	Bean creation exception on non-lazy FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:03:33,958	WARN	[main]	Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'vehicleService': Unsatisfied dependency expressed through field 'vehicleMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [com.vehicle.dao.vehicleMapper]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Related cause: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vehicleMapper' defined in file [D:\ideaFile\vehicleMonitoring\target\classes\com\vehicle\dao\vehicleMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected 'com.vehicle.dao.vehicleMapper' but found 'com.vehicle.core.dao.vehicleMapper'.
+2018-01-27 11:04:33,587	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:04:42,994	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:04:42,994	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:04:53,282	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:04:53 CST 2018]; root of context hierarchy
+2018-01-27 11:04:53,312	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:04:53,565	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:04:53,721	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:04:53,724	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:04:54,012	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:04:53 CST 2018]; root of context hierarchy
+2018-01-27 11:04:54,050	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:04:54,078	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:04:54,386	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:04:54,460	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:04:54,517	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:04:53 CST 2018]; root of context hierarchy
+2018-01-27 11:04:54,753	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d5d9e5: startup date [Sat Jan 27 11:04:54 CST 2018]; root of context hierarchy
+2018-01-27 11:04:54,754	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:04:54,804	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:04:54,839	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:04:54,839	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:04:54,860	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@5d5d9e5: startup date [Sat Jan 27 11:04:54 CST 2018]; root of context hierarchy
+2018-01-27 11:04:54,923	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:04:54,953	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:04:54,994	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@5d5d9e5: startup date [Sat Jan 27 11:04:54 CST 2018]; root of context hierarchy
+2018-01-27 11:05:05,192	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1b11ef33: startup date [Sat Jan 27 11:05:05 CST 2018]; root of context hierarchy
+2018-01-27 11:05:05,192	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:05:05,231	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:05:05,260	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:05:05,261	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:05:05,282	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1b11ef33: startup date [Sat Jan 27 11:05:05 CST 2018]; root of context hierarchy
+2018-01-27 11:05:05,337	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:05:05,358	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:05:05,384	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1b11ef33: startup date [Sat Jan 27 11:05:05 CST 2018]; root of context hierarchy
+2018-01-27 11:05:15,551	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@63f34b70: startup date [Sat Jan 27 11:05:15 CST 2018]; root of context hierarchy
+2018-01-27 11:05:15,552	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:05:15,591	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:05:15,616	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:05:15,617	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:05:15,642	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@63f34b70: startup date [Sat Jan 27 11:05:15 CST 2018]; root of context hierarchy
+2018-01-27 11:05:15,696	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:05:15,720	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:05:15,744	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@63f34b70: startup date [Sat Jan 27 11:05:15 CST 2018]; root of context hierarchy
+2018-01-27 11:05:27,250	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:05:36,670	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:05:36,670	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:05:55,925	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:05:55 CST 2018]; root of context hierarchy
+2018-01-27 11:05:55,957	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:05:56,216	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:05:56,377	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:05:56,380	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:05:56,664	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:05:55 CST 2018]; root of context hierarchy
+2018-01-27 11:05:56,700	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:05:56,726	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:05:57,029	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:05:57,107	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:05:57,162	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:05:55 CST 2018]; root of context hierarchy
+2018-01-27 11:05:57,334	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@224b4d61: startup date [Sat Jan 27 11:05:57 CST 2018]; root of context hierarchy
+2018-01-27 11:05:57,335	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:05:57,382	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:05:57,414	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:05:57,415	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:05:57,437	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@224b4d61: startup date [Sat Jan 27 11:05:57 CST 2018]; root of context hierarchy
+2018-01-27 11:05:57,490	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:05:57,514	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:05:57,540	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@224b4d61: startup date [Sat Jan 27 11:05:57 CST 2018]; root of context hierarchy
+2018-01-27 11:06:07,727	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@54107f42: startup date [Sat Jan 27 11:06:07 CST 2018]; root of context hierarchy
+2018-01-27 11:06:07,728	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:06:07,778	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:06:07,811	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:06:07,812	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:06:07,834	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@54107f42: startup date [Sat Jan 27 11:06:07 CST 2018]; root of context hierarchy
+2018-01-27 11:06:07,892	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:06:07,911	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:06:07,936	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@54107f42: startup date [Sat Jan 27 11:06:07 CST 2018]; root of context hierarchy
+2018-01-27 11:06:18,095	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ebd56e9: startup date [Sat Jan 27 11:06:18 CST 2018]; root of context hierarchy
+2018-01-27 11:06:18,096	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:06:18,124	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:06:18,154	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:06:18,155	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:06:18,176	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@5ebd56e9: startup date [Sat Jan 27 11:06:18 CST 2018]; root of context hierarchy
+2018-01-27 11:06:18,237	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:06:18,260	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:06:18,288	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@5ebd56e9: startup date [Sat Jan 27 11:06:18 CST 2018]; root of context hierarchy
+2018-01-27 11:06:28,466	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a6f5124: startup date [Sat Jan 27 11:06:28 CST 2018]; root of context hierarchy
+2018-01-27 11:06:28,467	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:06:28,501	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:06:28,525	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:06:28,525	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:06:28,545	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a6f5124: startup date [Sat Jan 27 11:06:28 CST 2018]; root of context hierarchy
+2018-01-27 11:06:28,588	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:06:28,607	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:06:28,631	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a6f5124: startup date [Sat Jan 27 11:06:28 CST 2018]; root of context hierarchy
+2018-01-27 11:06:38,792	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e041f0c: startup date [Sat Jan 27 11:06:38 CST 2018]; root of context hierarchy
+2018-01-27 11:06:38,793	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:06:38,824	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:06:38,847	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:06:38,848	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:06:38,868	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@e041f0c: startup date [Sat Jan 27 11:06:38 CST 2018]; root of context hierarchy
+2018-01-27 11:06:38,927	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:06:38,950	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:06:38,974	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@e041f0c: startup date [Sat Jan 27 11:06:38 CST 2018]; root of context hierarchy
+2018-01-27 11:06:49,136	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@405325cf: startup date [Sat Jan 27 11:06:49 CST 2018]; root of context hierarchy
+2018-01-27 11:06:49,136	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:06:49,164	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:06:49,189	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:06:49,189	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:06:49,215	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@405325cf: startup date [Sat Jan 27 11:06:49 CST 2018]; root of context hierarchy
+2018-01-27 11:06:49,314	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:06:49,334	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:06:49,367	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@405325cf: startup date [Sat Jan 27 11:06:49 CST 2018]; root of context hierarchy
+2018-01-27 11:06:59,545	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6d868997: startup date [Sat Jan 27 11:06:59 CST 2018]; root of context hierarchy
+2018-01-27 11:06:59,546	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:06:59,573	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:06:59,596	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:06:59,597	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:06:59,612	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@6d868997: startup date [Sat Jan 27 11:06:59 CST 2018]; root of context hierarchy
+2018-01-27 11:06:59,701	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:06:59,721	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:06:59,741	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@6d868997: startup date [Sat Jan 27 11:06:59 CST 2018]; root of context hierarchy
+2018-01-27 11:07:09,906	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4dd94a58: startup date [Sat Jan 27 11:07:09 CST 2018]; root of context hierarchy
+2018-01-27 11:07:09,906	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:07:09,928	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:07:09,944	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:07:09,945	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:07:09,959	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4dd94a58: startup date [Sat Jan 27 11:07:09 CST 2018]; root of context hierarchy
+2018-01-27 11:07:09,996	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:07:10,010	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:07:10,035	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4dd94a58: startup date [Sat Jan 27 11:07:09 CST 2018]; root of context hierarchy
+2018-01-27 11:07:20,188	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@736ac09a: startup date [Sat Jan 27 11:07:20 CST 2018]; root of context hierarchy
+2018-01-27 11:07:20,189	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:07:20,207	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:07:20,224	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:07:20,224	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:07:20,235	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@736ac09a: startup date [Sat Jan 27 11:07:20 CST 2018]; root of context hierarchy
+2018-01-27 11:07:20,352	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:07:20,428	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:07:20,467	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@736ac09a: startup date [Sat Jan 27 11:07:20 CST 2018]; root of context hierarchy
+2018-01-27 11:07:30,629	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7fedfe27: startup date [Sat Jan 27 11:07:30 CST 2018]; root of context hierarchy
+2018-01-27 11:07:30,630	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:07:30,648	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:07:30,666	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:07:30,666	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:07:30,678	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7fedfe27: startup date [Sat Jan 27 11:07:30 CST 2018]; root of context hierarchy
+2018-01-27 11:07:30,712	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:07:30,723	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:07:30,740	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@7fedfe27: startup date [Sat Jan 27 11:07:30 CST 2018]; root of context hierarchy
+2018-01-27 11:08:44,824	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:08:54,267	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:08:54,267	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:09:04,559	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:09:04 CST 2018]; root of context hierarchy
+2018-01-27 11:09:04,589	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:09:04,845	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:09:04,997	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:09:05,000	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:09:05,277	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:09:04 CST 2018]; root of context hierarchy
+2018-01-27 11:09:05,315	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:09:05,342	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:09:05,641	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:09:05,722	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:09:05,782	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:09:04 CST 2018]; root of context hierarchy
+2018-01-27 11:09:57,629	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:10:07,047	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:10:07,047	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:10:17,330	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:10:17 CST 2018]; root of context hierarchy
+2018-01-27 11:10:17,360	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:10:17,626	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:10:17,777	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:10:17,780	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:10:18,058	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:10:17 CST 2018]; root of context hierarchy
+2018-01-27 11:10:18,097	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:10:18,123	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:10:18,431	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:10:18,511	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:10:18,566	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:10:17 CST 2018]; root of context hierarchy
+2018-01-27 11:10:18,907	INFO	[main]	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeuwx9tevc6bo1281am6|6239aba6, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeuwx9tevc6bo1281am6|6239aba6, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://47.95.227.40:3306/team4?useUnicode=true&characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-01-27 11:11:54,409	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:12:03,833	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:12:03,833	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:12:14,116	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:12:14 CST 2018]; root of context hierarchy
+2018-01-27 11:12:14,148	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:12:14,403	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:12:14,552	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:12:14,555	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:12:14,836	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:12:14 CST 2018]; root of context hierarchy
+2018-01-27 11:12:14,878	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:12:14,909	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:12:15,202	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:12:15,277	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:12:15,336	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@77f99a05: startup date [Sat Jan 27 11:12:14 CST 2018]; root of context hierarchy
+2018-01-27 11:12:15,555	INFO	[main]	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeuwx9teveofo1glvx71|6239aba6, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeuwx9teveofo1glvx71|6239aba6, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://47.95.227.40:3306/team4?useUnicode=true&characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-01-27 11:26:41,622	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:26:51,073	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:26:51,073	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:27:05,687	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:27:05 CST 2018]; root of context hierarchy
+2018-01-27 11:27:05,718	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:27:05,965	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:27:06,125	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:27:06,128	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:27:06,437	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:27:05 CST 2018]; root of context hierarchy
+2018-01-27 11:27:06,479	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:27:06,509	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:27:06,831	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:27:06,927	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:27:06,998	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:27:05 CST 2018]; root of context hierarchy
+2018-01-27 11:27:07,250	INFO	[main]	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeuwx9tevxsed2qilzo|1fb669c3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeuwx9tevxsed2qilzo|1fb669c3, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://47.95.227.40:3306/team4?useUnicode=true&characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-01-27 11:27:07,709	INFO	[main]	Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-01-27 11:27:07,735	INFO	[main]	SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2018-01-27 11:28:04,114	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:28:13,526	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:28:13,526	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:28:27,468	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:28:27 CST 2018]; root of context hierarchy
+2018-01-27 11:28:27,499	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:28:27,758	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:28:27,906	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:28:27,909	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:28:28,188	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:28:27 CST 2018]; root of context hierarchy
+2018-01-27 11:28:28,224	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:28:28,252	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:28:28,557	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:28:28,636	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:28:28,699	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:28:27 CST 2018]; root of context hierarchy
+2018-01-27 11:28:28,915	INFO	[main]	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeuwx9tevzjgzavl97r|1fb669c3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeuwx9tevzjgzavl97r|1fb669c3, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://47.95.227.40:3306/team4?useUnicode=true&characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2018-01-27 11:30:34,284	INFO	[main]	ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = abc
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [47.95.227.40:9092]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	enable.auto.commit = false
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	check.crcs = true
+	request.timeout.ms = 40000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXT
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	auto.offset.reset = latest
+
+2018-01-27 11:30:43,701	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-27 11:30:43,701	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-27 11:31:00,568	INFO	[main]	Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:31:00 CST 2018]; root of context hierarchy
+2018-01-27 11:31:00,599	INFO	[main]	Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-01-27 11:31:00,856	INFO	[main]	Loading XML bean definitions from class path resource [spring.xml]
+2018-01-27 11:31:01,005	INFO	[main]	Loading properties file from URL [file:/D:/ideaFile/vehicleMonitoring/target/classes/jdbc.properties]
+2018-01-27 11:31:01,008	INFO	[main]	Loading properties file from class path resource [config.properties]
+2018-01-27 11:31:01,292	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:31:00 CST 2018]; root of context hierarchy
+2018-01-27 11:31:01,331	INFO	[main]	MLog clients using log4j logging.
+2018-01-27 11:31:01,359	INFO	[main]	Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2018-01-27 11:31:01,655	INFO	[main]	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-01-27 11:31:01,732	INFO	[main]	Mapped "{[/vehicleControl/getVehicleByVin]}" onto public java.lang.Object com.vehicle.Controller.vehicleController.realTimeVehicleData(java.lang.String)
+2018-01-27 11:31:01,792	INFO	[main]	Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a3869f4: startup date [Sat Jan 27 11:31:00 CST 2018]; root of context hierarchy
+2018-01-27 11:31:02,003	INFO	[main]	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgeuwx9tew2tlz1d89tei|1fb669c3, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgeuwx9tew2tlz1d89tei|1fb669c3, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://47.95.227.40:3306/team4?useUnicode=true&characterEncoding=utf8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
